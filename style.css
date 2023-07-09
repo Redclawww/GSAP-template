@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#nav{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 30px;
+    font-weight: 600;
+}
+
+#nav>img{
+    height: 65px;
+    position: relative;
+}
+
+#nav-part-2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+#nav-part-3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+#nav h3{
+    text-transform: uppercase;
+}
+
+#nav h4{
+    text-transform: uppercase;
+}
+
+button{
+    padding: 15px 20px;
+    color:#000;
+    border-radius: 0%;
+    text-transform: uppercase;
+    border:none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#main>h1{
+    font-size: 140px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#main h1 span{
+    background-color: brown;
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 30px 60px;
+    margin:0 50px;
+}
+
+#main>h1:nth-child(2){
+    color: red;
+}
+
+img{
+    height: 300px;
+    position: absolute;
+}
+
+.img1{
+    top: 20%;
+    left: 5%;
+    border-radius: 30px;
+}
+
+.img2{
+    bottom: 7%;
+    right: 5%;
+    border-radius: 30px;
+}
+
+#main>h5{
+    position: absolute;
+    font-size: 20px;
+    bottom: 10%;
+    left:45%;   
+}
